@@ -10,3 +10,54 @@ Attributes from most to least powerful:
 Each attribute was chosen as they connect with each other to make the cards balanced. For example, if a car has good smart systems, then it probably has a higher price which is bad. Or if a car has a heavier weight which is bad, it might have more horse power to move the car, which is good. If an attribute can be good without affecting any other attributes, that makes it unfair in gameplay, when attributes balance out, it makes it fair as even with good attributes there will still be weaknesses with the card.
 
 # Part B - Class Design
+## Car Class:
+Attributes:
++
++
+Methods:
+-
+-
+
+Role:
+
+## Card Class:
+Attributes:
++
++
+Methods:
+-
+-
+
+Role:
+
+## Deck Class:
+Attributes:
++
++
+Methods:
+-
+-
+
+Role:
+
+## Player Class:
+Attributes:
++
++
+Methods:
+-
+-
+
+Role:
+
+## Game Class:
+Attributes:
++
++
+Methods:
+-
+-
+
+Role:
+
+# Part C - Class Diagram
