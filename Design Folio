@@ -12,52 +12,59 @@ Each attribute was chosen as they connect with each other to make the cards bala
 # Part B - Class Design
 ## Car Class:
 Attributes:
-+
-+
++ Price
++ Smart Systems
++ Horse Power
++ Top Speed
++ Fuel EFficiency
++ Weight
 Methods:
--
--
+- 
+- 
 
-Role:
+Role: It provides data for cars that can be transfered onto cards.
 
 ## Card Class:
 Attributes:
-+
-+
++ Car
++ ID
++ Image
 Methods:
--
--
+- Compare Stats()
+- List Stats()
 
-Role:
+Role: It makes car objects from the car class into playable cards.
 
 ## Deck Class:
 Attributes:
-+
-+
++ Cards
++ Size
 Methods:
--
--
+- Shuffle Cards()
+- Hand Out Cards()
 
-Role:
+Role: The deck stores and organises all cards and moves the cards into the players hands during the game loop.
 
 ## Player Class:
 Attributes:
-+
-+
++ Cards In Hand
++ Current Card
 Methods:
--
+- Choose Stat()
+- Add Cards()
+- Has Cards()
 -
 
-Role:
+Role: The players use cards and control the flow of the game.
 
 ## Game Class:
 Attributes:
 +
 +
 Methods:
--
+- Start Game()
 -
 
-Role:
+Role: Loop the game so players can play.
 
 # Part C - Class Diagram
